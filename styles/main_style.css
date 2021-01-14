@@ -1,0 +1,40 @@
+main{
+    border-top: 10px black solid;
+    border-bottom: 10px black solid;
+    margin-bottom: 0.625em;
+}
+
+.contenedor-dos{
+    display: grid;
+    grid-template-columns: 47.25em 20.25em; /* 70% 30%*/
+    grid-template-rows: auto;
+    margin: 1.875em 0;
+}
+
+.contenedor-dos-reversa{
+    display: grid;
+    grid-template-columns: 20.25em 47.25em; /* 30% 70%*/
+    grid-template-rows: auto;
+    margin: 1.875em 0;
+}
+
+.contenedor-tres{
+    display: grid;
+    grid-template-columns: repeat(3, 22.5em); /* 30% 30% 30%*/
+    grid-template-rows: auto;
+    margin: 1.875em 0;
+}
+
+.figura{
+    padding: 1em;
+}
+
+.figura img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.3125em;
+}
+
+.figura h2{
+    margin: 2rem 0.9664375rem 0;
+}

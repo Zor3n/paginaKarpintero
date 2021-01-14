@@ -1,0 +1,50 @@
+header{
+    background-color: white;
+    margin: 0 auto 3.125em;
+    text-align: center;
+    width: 67.5em;
+    height: 11.4em;
+    position: sticky;
+    top: 0;
+    z-index:1;
+}
+
+.contenedor{
+    margin: 0 6.25em;
+}
+
+.boton{
+    display: none;
+    border: none;
+}
+
+.titulo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 1.25em;
+    height: 9.12em;
+}
+
+.titulo h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 5em;
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    height: 2.28em;
+}
+
+.lista ul{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+.lista a:hover{
+    opacity: 0.5;
+    transition: all .5s ease-out;
+}

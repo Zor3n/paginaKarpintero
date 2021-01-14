@@ -1,0 +1,101 @@
+@import 'header_style.css';
+@import 'main_style.css';
+@import 'footer_style.css';
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, li{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor figure:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all .5s ease-out;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 75em;
+    text-align: center;
+    width: 67.5em;
+}
+
+@media screen and (max-width: 980px){
+    body{
+        font-size: 11px;
+    }
+
+    .contenedor{
+        margin: 0 6.25em;
+        display: grid;
+        grid-template-columns: 52.0625em 9.1875em; /*85% 15%*/
+        grid-template-rows: 1;
+        justify-content: center;
+    }
+
+    .lista{
+        display: none;
+    }
+
+    .elemento:hover{
+        border: 0.272727273em solid black;
+    }
+
+    .boton{
+        align-self: flex-end;
+        background-color: white;
+        display: inline;
+        cursor: pointer;
+        margin: 0.909090909em;
+        padding: 1.25em;
+    }
+
+    .material-icons {
+        font-size: 36px;
+    }
+    
+    .contenedor-dos{
+        display: grid;
+        grid-template-columns: 54em; /* Una columna */
+        grid-template-rows: auto;
+        justify-content: center;
+    }
+    
+    .contenedor-dos-reversa{
+        display: grid;
+        grid-template-columns: 54em; /* Una columna */
+        grid-template-rows: auto;
+        justify-content: center;
+    }
+    
+    .contenedor-tres{
+        display: grid;
+        grid-template-columns: 54em; /* Una columna */
+        grid-template-rows: auto;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1700px){
+    body{
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+
+
